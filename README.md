@@ -1,2 +1,2 @@
-# my_cv
-https://antopalidi.github.io/my_cv/
+# My cv
+Deploy: https://antopalidi.github.io/my_cv/
