@@ -1,3 +1,8 @@
+:root {
+  --main-color: rgb(46, 59, 91);
+  --contrast-color: #ff6b08;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -72,7 +77,7 @@ html, body {
 .skills-item::before {
   content: '\2022';
   margin-right: 8px;
-  color: #ff6b08;
+  color: var(--contrast-color);
   font-size: 18px;
 }
 
@@ -99,7 +104,7 @@ html, body {
 }
 
 mark {
-  background: #ff6b08;;
+  background: var(--contrast-color);
   padding: 0 3px;
   box-shadow: 0 5px 13px 0 rgba(255, 107, 8, 0.588);
 }
@@ -137,7 +142,7 @@ mark {
 }
 
 .projects-link:hover {
-  color: #ff6b08;
+  color: var(--contrast-color);
 }
 
 .jobs-occupation,
@@ -169,7 +174,7 @@ mark {
 }
 
 .accent {
-  color: #ff6b08;
+  color: var(--contrast-color);
 }
 
 .bio,
@@ -181,7 +186,7 @@ mark {
 
 .widget-link {
   color: #fff;
-  background-color: #ff6b08;
+  background-color: var(--contrast-color);
   padding: 20px 43px;
   text-decoration: none;
   text-transform: uppercase;
@@ -203,7 +208,7 @@ mark {
   line-height: 1;
 
   color: #fff;
-  background-color: #ff6b08;
+  background-color: var(--contrast-color);
   box-shadow: 0 8px 23px 0 rgba(255, 107, 8, 0.588);
 }
 
@@ -225,4 +230,9 @@ mark {
   .columns {
     min-width: 80%;
   }
+}
+
+.agreement {
+  font-size: 10px;
+  color: #828282;
 }
